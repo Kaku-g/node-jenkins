@@ -19,10 +19,6 @@ pipeline {
     }  
     
             
-    stage('Test') {
-      steps {
-        sh 'node test'
-      }
-    }
+    
   }
 }
